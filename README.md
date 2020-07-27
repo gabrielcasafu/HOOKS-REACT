@@ -17,3 +17,5 @@ useEffect(() => {document.title = `You clicked ${count} times`;});<br />
 
 Al usar este Hook, le estamos indicando a React que el componente tiene que hacer algo después de renderizarse. React recordará la función que le hemos pasado (nos referiremos a ella como nuestro “efecto”), y la llamará más tarde después de actualizar el DOM. En este efecto, actualizamos el título del documento, pero también podríamos hacer peticiones de datos o invocar alguna API imperativa.
 
+### `Visualizacion`
+![](public/hooks.png)
